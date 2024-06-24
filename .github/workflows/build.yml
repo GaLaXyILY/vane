@@ -15,7 +15,7 @@ jobs:
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        project: [ 'admin', 'bedtime', 'core', 'enchantments', 'permissions', 'portals', 'regions', 'trifles', 'velocity' ]
+        project: [ 'admin', 'core', 'bedtime', 'enchantments', 'permissions', 'portals', 'regions', 'trifles', 'velocity' ]
 
     steps:
       - uses: actions/checkout@v3.0.0

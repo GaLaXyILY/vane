@@ -5,7 +5,8 @@ plugins {
 }
 
 dependencies {
-	paperDevBundle("1.20.6-R0.1-SNAPSHOT")
+    paperDevBundle("1.20.6-R0.1-SNAPSHOT")
+	
 }
 
 java {
