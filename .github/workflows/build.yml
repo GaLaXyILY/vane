@@ -1,9 +1,15 @@
 name: Build
-
 on:
-  push:
-  pull_request:
-
+  workflow_dispatch:  
+    inputs:  
+      logLevel:  
+        description: 'Log level'  
+        required: true  
+        default: 'warning'
+  push:  
+    branches: [ "1.21dev" ]  
+  pull_request:  
+    branches: [ "1.21dev" ] 
 jobs:
   build:
     runs-on: ubuntu-latest
