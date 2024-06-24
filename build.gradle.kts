@@ -33,6 +33,7 @@ subprojects {
 		maven("https://repo.dmulloy2.net/nexus/repository/public/")
 		maven("https://repo.mikeprimm.com/")
 		maven("https://repo.codemc.org/repository/maven-public/")
+		maven("https://repo.dmulloy2.net/repository/public/")
 		maven("https://jitpack.io")
 		maven("https://api.modrinth.com/maven")
 	}
@@ -87,7 +88,7 @@ configure(subprojects.filter {
 	}
 
 	dependencies {
-		implementation(group = "com.comphenix.protocol", name = "ProtocolLib", version = "5.2.1-SNAPSHOT")
+		implementation(group = "com.comphenix.protocol", name = "ProtocolLib", version = "5.3.0-SNAPSHOT")
 
 		compileOnly(project(":vane-annotations"))
 		annotationProcessor(project(path = ":vane-annotations", configuration = "reobf"))
