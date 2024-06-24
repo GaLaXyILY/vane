@@ -12,9 +12,9 @@ rootProject.name = "vane"
 // the build. Note that these path are not file paths, but instead specify the location of the new project in the
 // project hierarchy. As such, the supplied paths must use the ':' character as separator (and NOT '/').
 include(":vane-admin")
+include(":vane-core")
 include(":vane-annotations")
 include(":vane-bedtime")
-include(":vane-core")
 include(":vane-enchantments")
 include(":vane-permissions")
 include(":vane-portals")
