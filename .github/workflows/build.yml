@@ -7,9 +7,9 @@ on:
         required: true  
         default: 'warning'
   push:  
-    branches: [ "1.21dev" ]  
+    branches: [ "dev" ]  
   pull_request:  
-    branches: [ "1.21dev" ] 
+    branches: [ "dev" ] 
 jobs:
   build:
     runs-on: ubuntu-latest
